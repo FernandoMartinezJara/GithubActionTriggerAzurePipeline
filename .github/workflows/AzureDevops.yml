@@ -17,6 +17,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
           with:
-            azure-devops-project-url: https://dev.azure.com/organization/project-name
-            azure-pipeline-name: 'My Pipeline'
+            azure-devops-project-url: https://achsdev.visualstudio.com/NACOD%20-%20Equipo%20Arquitectura
+            azure-pipeline-name: 'NACOD - Equipo Arquitectura'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
