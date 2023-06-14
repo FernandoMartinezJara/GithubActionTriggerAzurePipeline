@@ -17,6 +17,6 @@ jobs:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1.2
           with:
-            azure-devops-project-url: https://achsdev.visualstudio.com/NACOD - Equipo Arquitectura
-            azure-pipeline-name: 'deploy'
+            azure-devops-project-url: https://achsdev.visualstudio.com/ACHS-DevOps
+            azure-pipeline-name: 'Resources.OnOff'
             azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN }}
