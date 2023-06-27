@@ -19,4 +19,4 @@ jobs:
           with:
             azure-devops-project-url: https://achsdev.visualstudio.com/ACHS-DevOps
             azure-pipeline-name: 'Resources.OnOff'
-            azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN_v2 }}
+            azure-devops-token: ${{ secrets.AZURE_DEVOPS_TOKEN_V2 }}
